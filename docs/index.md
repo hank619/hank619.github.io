@@ -4,22 +4,25 @@ layout: home
 
 hero:
   name: "Hank's website"
-  text: "A website for hank to share interesting informations"
-  tagline: My great project tagline
+  text: "A website for hank to share interesting information"
+  # tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Essays
+      link: /essays/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Tools
+      link: /tools/
+    - theme: alt
+      text: About Me
+      link: /about-me/
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+# features:
+#   - title: Feature A
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature B
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature C
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

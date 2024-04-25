@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, type DefaultTheme } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,23 +7,29 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples'},
-      { text: 'About Me', link: '/about-me' },
+      { text: "Home", link: "/" },
+      { text: "Essays", link: "/essays/" },
+      { text: "Tools", link: "/tools/" },
+      { text: "About Me", link: "/about-me/" },
     ],
+    sidebar: {
+      "/essays/": {
+        base: "/essays/",
+        items: sidebarEssays(),
+      },
+    },
+    socialLinks: [{ icon: "github", link: "https://github.com/hank619" }],
+  },
+});
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
-})
+function sidebarEssays(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "Examples1",
+      items: [
+        { text: "Markdown Examples", link: "/index" },
+        { text: "Runtime API Examples", link: "/api-examples" },
+      ],
+    },
+  ];
+}
