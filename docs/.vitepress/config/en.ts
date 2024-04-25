@@ -1,14 +1,18 @@
 import { defineConfig, type DefaultTheme } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export const en = defineConfig({
   title: "Hank's website",
   description: "A website for hank to share interesting information",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Essays", link: "/essays/traps-github-user-site", activeMatch: '/essays/' },
+      {
+        text: "Essays",
+        link: "/essays/traps-github-user-site",
+        activeMatch: "/essays/",
+      },
       { text: "Tools", link: "/tools/" },
       { text: "About Me", link: "/about-me/" },
     ],
