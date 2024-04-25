@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Essays
-      link: /essays/
+      link: /essays/traps-github-user-site
     - theme: alt
       text: Tools
       link: /tools/
