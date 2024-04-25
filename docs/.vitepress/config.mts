@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Essays", link: "/essays/" },
+      { text: "Essays", link: "/essays/traps-github-user-site" },
       { text: "Tools", link: "/tools/" },
       { text: "About Me", link: "/about-me/" },
     ],
@@ -24,12 +24,6 @@ export default defineConfig({
 
 function sidebarEssays(): DefaultTheme.SidebarItem[] {
   return [
-    {
-      text: "Examples1",
-      items: [
-        { text: "Markdown Examples", link: "/index" },
-        { text: "Runtime API Examples", link: "/api-examples" },
-      ],
-    },
+    { text: "Trap with github user site", link: "/traps-github-user-site" },
   ];
 }
