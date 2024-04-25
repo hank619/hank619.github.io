@@ -11,7 +11,7 @@
 
 ### Reason
 
-The repository name should be `username.github.io`, I created it wrongly as just `username`, the `username` repository is used to show info in the personal github page `https://github.com/hank619` by using its README file
+The repository name should be `username.github.io`, I created it wrongly as just `username`, the `username` repository is used to show info in the personal github page `https://github.com/username` by using its README file
 
 ### Solution
 
