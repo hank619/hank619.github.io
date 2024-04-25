@@ -3,33 +3,36 @@
  * @Date: 2024-04-25 13:36:58
  * @Description: 
 -->
-# Traps with github user site
+# VitePress部署github用户站的坑
 
-## Problem1
+## 问题1
 
-> By following the deployment documents of VitePress, after deploy to github user site, the link is always username github.io/username
+> 按照VitePress的部署文档，部署到github用户站点后，链接总是username github.io/username
+> 
 
-### Reason
+### 原因
 
-The repository name should be `username.github.io`, I created it wrongly as just `username`, the `username` repository is used to show info in the personal github page `https://github.com/username` by using its README file
+仓库的名字应该是`username.github.io`，我错误地创建为只有`username`，`username`仓库用于在个人github页面`https://github.com/username`显示信息，通过使用其README文件
 
-### Solution
+### 解决方案
 
-change the repository name to `username.github.io`
+将仓库名称更改为`username.github.io`
 
-## Problem2
+## 问题2
 
-> When using github actions to deploy to github pages, it shows 403 permission error
+> 使用github actions部署到github页面时，显示403权限错误
+> 
 
-### Reason
+### 原因
 
-The GITHUB_TOKEN is default to set to only have read permission, so it cannot write to the github pages
+GITHUB_TOKEN默认设置为只有读取权限，因此无法写入github页面
 
-### Solution
+### 解决方案
 
-add write permission in workflow
+在工作流中添加写入权限
 
-```yml
+```
 permissions:
   contents: write
+
 ```

@@ -3,13 +3,13 @@
  * @Date: 2024-04-25 14:15:21
  * @Description: 
 -->
-# Ways to view docs with google service
+# 使用Google服务预览文档
 
-## Urls
+## 网址
 
 [Google Viewer](https://docs.google.com/viewer?embedded=true&url=xxx)
 
 [G View](https://docs.google.com/gview?embedded=true&url=xxx)
 
-## Pros and Cons
-[Google Viewer](https://docs.google.com/viewer?embedded=true&url=xxx) is newer and supposed to support more features
+## 优点和缺点
+[Google Viewer](https://docs.google.com/viewer?embedded=true&url=xxx) 是较新的，支持更多的功能

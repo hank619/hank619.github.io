@@ -33,7 +33,7 @@ export const zh = defineConfig({
 
 function sidebarEssays(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "Github用户站的坑", link: "/traps-github-user-site" },
+    { text: "VitePress部署github用户站的坑", link: "/traps-github-user-site" },
     { text: "使用Google服务预览文档", link: "/google-doc-view" },
   ];
 }
