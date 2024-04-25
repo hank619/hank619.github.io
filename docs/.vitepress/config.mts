@@ -14,7 +14,7 @@ export default defineConfig({
     ],
     sidebar: {
       "/essays": {
-        base: "/essays/",
+        base: "/essays",
         items: sidebarEssays(),
       },
     },
