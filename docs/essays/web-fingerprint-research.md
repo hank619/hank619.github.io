@@ -8,6 +8,8 @@ Currently, there are two major libraries to generate a consistent and unique ID 
 
 This is a brief comparison of [npm trends](https://npmtrends.com/@fingerprintjs/fingerprintjs-vs-clientjs)
 
+![picture 1](https://cdn.jsdelivr.net/gh/hank619/pictureRepo@main/markdown/40a967d2004d4defab3bef116ed72921baf6a4ae9d28ed4ab0a0a95fb7a435f0.png)  
+
 ## Commercial consideration
 
 - fingerprintjs is only free for commercial usage with v3 and below and it declares that accuracy is 40%-60%, the paid version starts from $99/month, for more details, you can check [pricing](https://fingerprint.com/pricing/)
