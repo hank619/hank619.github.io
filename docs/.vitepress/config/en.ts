@@ -31,5 +31,6 @@ function sidebarEssays(): DefaultTheme.SidebarItem[] {
     { text: "Trap with github user site", link: "/traps-github-user-site" },
     { text: "Google doc view", link: "/google-doc-view" },
     { text: "App store link", link: "/app-store-link" },
+    { text: "Web fingerprint research", link: "/web-fingerprint-research" },
   ];
 }
