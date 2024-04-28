@@ -9,7 +9,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
-    "gitalk": "^1.8.0",
+    "@giscus/vue": "^3.0.0",
     "vue": "^3.4.25"
   }
 }
