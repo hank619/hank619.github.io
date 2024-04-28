@@ -8,6 +8,7 @@ import { onMounted } from "vue";
 import "gitalk/dist/gitalk.css";
 import Gitalk from "gitalk";
 import DefaultTheme from "vitepress/theme";
+import "./global.css";
 
 const { Layout } = DefaultTheme;
 
