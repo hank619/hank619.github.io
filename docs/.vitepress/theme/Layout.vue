@@ -4,13 +4,23 @@
  * @Description: 
 -->
 <script setup lang="ts">
-import { onMounted, watch, nextTick } from "vue";
+import { onMounted, watch, ref } from "vue";
 import DefaultTheme from "vitepress/theme";
 import { useRouter } from "vitepress";
 import Giscus from "@giscus/vue";
 
 const { Layout } = DefaultTheme;
 const { route } = useRouter();
+const count = ref(0);
+
+onMounted(() => {
+  watch(
+    () => route.path,
+    () => {
+      count.value++;
+    }
+  );
+});
 </script>
 
 <template>
@@ -30,8 +40,8 @@ const { route } = useRouter();
         theme="preferred_color_scheme"
         lang="en"
         loading="lazy"
+        :key="count"
       />
-      <div style="height: 100px"></div>
     </template>
   </Layout>
 </template>
