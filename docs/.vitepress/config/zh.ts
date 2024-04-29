@@ -37,5 +37,6 @@ function sidebarEssays(): DefaultTheme.SidebarItem[] {
     { text: "使用Google服务预览文档", link: "/google-doc-view" },
     { text: "App的应用商店访问地址", link: "/app-store-link" },
     { text: "浏览器指纹调研", link: "/web-fingerprint-research" },
+    { text: "Vitepress添加评论系统的坑", link: "/traps-vitepress-comment" },
   ];
 }

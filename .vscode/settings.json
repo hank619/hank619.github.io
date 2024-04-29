@@ -4,6 +4,11 @@
       "language": "markdown",
       "scheme": "file",
       "pattern": "docs/essays/web-fingerprint-research.md"
+    },
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "docs/essays/traps-vitepress-comment.md"
     }
   ]
 }
