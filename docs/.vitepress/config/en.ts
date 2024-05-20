@@ -33,5 +33,6 @@ function sidebarEssays(): DefaultTheme.SidebarItem[] {
     { text: "App store link", link: "/app-store-link" },
     { text: "Web fingerprint research", link: "/web-fingerprint-research" },
     { text: "Traps with Vitepress comment", link: "/traps-vitepress-comment" },
+    { text: "React countdown", link: "/react-countdown" },
   ];
 }

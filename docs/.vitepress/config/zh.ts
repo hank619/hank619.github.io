@@ -38,5 +38,6 @@ function sidebarEssays(): DefaultTheme.SidebarItem[] {
     { text: "App的应用商店访问地址", link: "/app-store-link" },
     { text: "浏览器指纹调研", link: "/web-fingerprint-research" },
     { text: "Vitepress添加评论系统的坑", link: "/traps-vitepress-comment" },
+    { text: "React实现倒计时", link: "/react-countdown" },
   ];
 }
