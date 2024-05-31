@@ -39,5 +39,6 @@ function sidebarEssays(): DefaultTheme.SidebarItem[] {
     { text: "浏览器指纹调研", link: "/web-fingerprint-research" },
     { text: "Vitepress添加评论系统的坑", link: "/traps-vitepress-comment" },
     { text: "React实现倒计时", link: "/react-countdown" },
+    { text: "IOS工程化相关", link: "/ios-engineering" },
   ];
 }
