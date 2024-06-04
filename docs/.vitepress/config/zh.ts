@@ -40,5 +40,6 @@ function sidebarEssays(): DefaultTheme.SidebarItem[] {
     { text: "Vitepress添加评论系统的坑", link: "/traps-vitepress-comment" },
     { text: "React实现倒计时", link: "/react-countdown" },
     { text: "IOS工程化相关", link: "/ios-engineering" },
+    { text: "GA和GTM", link: "/ga-and-gtm" },
   ];
 }

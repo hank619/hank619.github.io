@@ -35,5 +35,6 @@ function sidebarEssays(): DefaultTheme.SidebarItem[] {
     { text: "Traps with Vitepress comment", link: "/traps-vitepress-comment" },
     { text: "React countdown", link: "/react-countdown" },
     { text: "IOS engineering", link: "/ios-engineering" },
+    { text: "GA and GTM", link: "/ga-and-gtm" },
   ];
 }
