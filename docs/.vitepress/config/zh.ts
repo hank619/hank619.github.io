@@ -41,5 +41,6 @@ function sidebarEssays(): DefaultTheme.SidebarItem[] {
     { text: "React实现倒计时", link: "/react-countdown" },
     { text: "IOS工程化相关", link: "/ios-engineering" },
     { text: "GA和GTM", link: "/ga-and-gtm" },
+    { text: "神经网络", link: "/neural-network" },
   ];
 }

@@ -36,5 +36,6 @@ function sidebarEssays(): DefaultTheme.SidebarItem[] {
     { text: "React countdown", link: "/react-countdown" },
     { text: "IOS engineering", link: "/ios-engineering" },
     { text: "GA and GTM", link: "/ga-and-gtm" },
+    { text: "Neural network", link: "/neural-network" },
   ];
 }
