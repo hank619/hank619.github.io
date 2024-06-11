@@ -38,5 +38,6 @@ function sidebarEssays(): DefaultTheme.SidebarItem[] {
     { text: "GA and GTM", link: "/ga-and-gtm" },
     { text: "Neural network", link: "/neural-network" },
     { text: "Python Basis", link: "/python-basis" },
+    { text: "Objective-C basis", link: "/objective-c-basis" },
   ];
 }

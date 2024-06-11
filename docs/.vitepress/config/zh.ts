@@ -43,5 +43,6 @@ function sidebarEssays(): DefaultTheme.SidebarItem[] {
     { text: "GA和GTM", link: "/ga-and-gtm" },
     { text: "神经网络", link: "/neural-network" },
     { text: "Python基础", link: "/python-basis" },
+    { text: "Objective-C基础", link: "/objective-c-basis" },
   ];
 }
