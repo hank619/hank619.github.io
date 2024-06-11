@@ -42,5 +42,6 @@ function sidebarEssays(): DefaultTheme.SidebarItem[] {
     { text: "IOS工程化相关", link: "/ios-engineering" },
     { text: "GA和GTM", link: "/ga-and-gtm" },
     { text: "神经网络", link: "/neural-network" },
+    { text: "Python基础", link: "/python-basis" },
   ];
 }

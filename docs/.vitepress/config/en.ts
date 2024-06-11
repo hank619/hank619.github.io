@@ -37,5 +37,6 @@ function sidebarEssays(): DefaultTheme.SidebarItem[] {
     { text: "IOS engineering", link: "/ios-engineering" },
     { text: "GA and GTM", link: "/ga-and-gtm" },
     { text: "Neural network", link: "/neural-network" },
+    { text: "Python Basis", link: "/python-basis" },
   ];
 }
