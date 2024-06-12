@@ -39,5 +39,6 @@ function sidebarEssays(): DefaultTheme.SidebarItem[] {
     { text: "Neural network", link: "/neural-network" },
     { text: "Python Basis", link: "/python-basis" },
     { text: "Objective-C basis", link: "/objective-c-basis" },
+    { text: "Console rewrite", link: "/console-rewrite" },
   ];
 }

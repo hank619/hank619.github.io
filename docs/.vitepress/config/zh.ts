@@ -44,5 +44,6 @@ function sidebarEssays(): DefaultTheme.SidebarItem[] {
     { text: "神经网络", link: "/neural-network" },
     { text: "Python基础", link: "/python-basis" },
     { text: "Objective-C基础", link: "/objective-c-basis" },
+    { text: "Console重写", link: "/console-rewrite" },
   ];
 }
