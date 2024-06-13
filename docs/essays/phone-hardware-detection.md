@@ -39,7 +39,7 @@ Different weights are assigned to various hardware components based on their pri
 
 ```
 totalWeight = sum(weight)
-totalScore = (Sum of weights of detected items) / Total weight * 100
+totalScore = (sum of weights of detection passed items) / totalWeight * 100
 ```
 
 ## Caveat
