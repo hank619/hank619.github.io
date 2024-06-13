@@ -3,13 +3,13 @@
  * @Date: 2024-06-12 17:45:20
  * @Description: 
 -->
-# Hardware Detection
+# Phone Hardware Detection
 
-> There are numerous internal hardware components in mobile phones. How can we determine the condition of these hardware components? This article provides a solution for detecting the internal hardware of mobile phones. The detection methods can be broadly categorized into:
-
+There are numerous hardware components in mobile phones. How can we determine the condition of these hardware components? This article provides a solution for detecting the hardware of mobile phones. The detection methods can be broadly categorized into:
+©
   - Technical solution, implemented through code
-  - Engineering solution, implemented through business methods. Enclosed in brackets below
-  - Hybrid solution, combining technical and business implementations
+  - Engineering solution, implemented through business methods which will be enclosed in brackets in Implementation section
+  - Hybrid solution, combining technical and engineering solution
   
 ## Implementation
 
@@ -44,4 +44,4 @@ totalScore = (Sum of weights of detected items) / Total weight * 100
 
 ## Caveat
 
-This solution assumes that the mobile phone is able to boot and run apps or open a browser, so components like the CPU and RAM are assumed to be functioning properly and do not need to be tested.
+This solution assumes that the mobile phone is able to boot and run apps or open a browser, so components like the `CPU` and `RAM` are assumed to be functioning properly and do not need to be tested.
