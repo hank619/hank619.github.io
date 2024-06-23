@@ -40,6 +40,8 @@ function sidebarEssays(): DefaultTheme.SidebarItem[] {
     { text: "Python Basis", link: "/python-basis" },
     { text: "Objective-C basis", link: "/objective-c-basis" },
     { text: "Console rewrite", link: "/console-rewrite" },
-    // { text: "Phone hardware detection", link: "/phone-hardware-detection" },
+    { text: "Phone hardware detection", link: "/phone-hardware-detection" },
+    { text: "Go basis", link: "/go-basis" },
+    { text: "DDD", link: "/DDD" },
   ];
 }

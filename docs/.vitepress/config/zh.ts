@@ -45,6 +45,9 @@ function sidebarEssays(): DefaultTheme.SidebarItem[] {
     { text: "Python基础", link: "/python-basis" },
     { text: "Objective-C基础", link: "/objective-c-basis" },
     { text: "Console重写", link: "/console-rewrite" },
-    // { text: "手机硬件检测", link: "/phone-hardware-detection" },
+    { text: "手机硬件检测", link: "/phone-hardware-detection" },
+    { text: "Go基础", link: "/go-basis" },
+    { text: "领域驱动设计", link: "/DDD" },
+
   ];
 }
