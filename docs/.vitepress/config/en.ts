@@ -43,5 +43,7 @@ function sidebarEssays(): DefaultTheme.SidebarItem[] {
     { text: "Phone hardware detection", link: "/phone-hardware-detection" },
     { text: "Go basis", link: "/go-basis" },
     { text: "DDD", link: "/DDD" },
+    { text: "gRPC", link: "/gRPC" },
+
   ];
 }
