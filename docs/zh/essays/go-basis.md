@@ -97,13 +97,19 @@ func main() {
 }
 ```
 
-## 类型断言
+## 类型断言/类型声明
 
-类似于类型强转
+- 类型断言，类似于类型强转，运行时动态判断，如果类型不匹配，会触发运行时panic。主要用来将接口转换为具体类型
 
-```go
-appImpl := a.App.(*commonApp.EchoAppImpl)
-```
+  ```go
+  appImpl := a.App.(*commonApp.EchoAppImpl)
+  ```
+
+- 类型声明，也类似于类型强转，不过是编译时检查，如果类型不匹配，会编译报错。主要用来判断一个struct是否实现了某个接口
+  
+  ```go
+  var _ app.App = (*commonApp.EchoAppImpl)(nil)
+  ```
 
 ## 接口
 
